@@ -1,0 +1,2 @@
+# --verbose
+Verbose output mode

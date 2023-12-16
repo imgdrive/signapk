@@ -1,22 +1,8 @@
-# signapk
-signapk is a cross-platform standalone tool to sign the Android APK file, it's written in C/C++ and has compatible command line arguments with Google [ApkSigner](https://developer.android.com/tools/apksigner).
-
-## Download
-signapk version 1.5 (2023-12-15)
-- [Windows](bin/signapk_win.zip)
-- [macOS](bin/signapk_macos.zip)
-- [Linux (Unbuntu)](bin/signapk_linux.zip)
-
-## Features
-- Written in C/C++, with no third-party dependencies
-- Native binaries for Windows(x86/x64/ARM64), macOS(x86_64/ARM64) and Linux(Unbuntu)
-- Compatible command line arguments with [ApkSigner](https://developer.android.com/tools/apksigner)
-- Support [APK Signature Scheme v1](https://source.android.google.cn/docs/security/features/apksigning)
-- Support [APK Signature Scheme v2](https://source.android.google.cn/docs/security/features/apksigning/v2)
-- Support [APK Signature Scheme v3](https://source.android.google.cn/docs/security/features/apksigning/v3)
+# signapk command line
 
 ## Usage
     signapk <command> [options]
+
 | Command  | Description                                                     |
 |:---------|:----------------------------------------------------------------|
 | sign     | Sign the provided APK                                           |
@@ -39,16 +25,6 @@ signapk version 1.5 (2023-12-15)
 <tr><td><a href="--max-sdk-version.md">--max-sdk-version</a></td><td>Highest API Level</td></tr>
 </table>
 
-### Example
+## Example
 	signapk sign --ks release.jks app.apk
 	signapk verify --verbose app.apk
-
-## Changelog
-### Version 2.0 2023-12-15
-- Changed: implement complatible command line arguments with ApkSigner
-- Added: support signature algorithm DSA-1024, DSA-2048 and DSA-3072
-- Added: native binaries for macOS (x86-x64 and ARM64)
-- Added: native binaries for Linux (Unbuntu)
-
-### Version 1.0 2023-06-01
-- First public release
