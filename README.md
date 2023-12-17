@@ -9,8 +9,8 @@ signapk version 1.5 (2023-12-15)
   - [signapk x86](https://download.yubsoft.com/x86/signapk.exe)
   - [signapk x64](https://download.yubsoft.com/x64/signapk.exe)
   - [signapk ARM64](https://download.yubsoft.com/arm64/signapk.exe)
-- [signapk for macOS](https://download.yubsoft.com/macos/signapk.zip)
-- [signapk for Linux (Unbuntu)](https://download.yubsoft.com/ubuntu/signapk.exe)
+- [signapk for macOS](https://download.yubsoft.com/macos/signapk)
+- [signapk for Linux (Unbuntu)](https://download.yubsoft.com/ubuntu/signapk)
 
 ## Features
 - Written in C/C++, with no third-party dependencies
