@@ -15,12 +15,11 @@ def genhhp(ini_file, hhp_file):
     
     with open(hhp_file, "w") as f:
         f.write("[OPTIONS]\n")
-        f.write("Binary TOC=Yes\n")
         f.write("Compatibility=1.1 or later\n")
         f.write("Compiled file="+FileName+"\n")
         f.write("Contents file=main.hhc\n")
         f.write("Create CHI file=Yes\n")
-        f.write("Default Window=a\n")
+        #f.write("Default Window=a\n")
         f.write("Default topic=index.html\n")
         f.write("Display compile notes=No\n")
         f.write("Display compile progress=No\n")
@@ -29,8 +28,8 @@ def genhhp(ini_file, hhp_file):
         f.write("Language=0x409 English (United States)\n")
         f.write("Title="+Title+"\n")
 
-        f.write("\n[WINDOWS]\n")
-        f.write("a=,\"main.hhc\",\"main.hhk\",\"index.html\",,,,,,0x23520,,0x3006,,,,,,,,0\n")
+        #f.write("\n[WINDOWS]\n")
+        #f.write("a=,\"main.hhc\",\"main.hhk\",\"index.html\",,,,,,0x23520,,0x3006,,,,,,,,0\n")
         
         f.write("\n[INFOTYPES]\n");
 
@@ -38,7 +37,7 @@ def writeHead(f):
     f.write("<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML//EN\">\n");
     f.write("<HTML>\n");
     f.write("<HEAD>\n");
-    f.write("<meta name=\"GENERATOR\" content=\"Microsoft&reg; HTML Help Workshop 4.1\">\n");
+    #f.write("<meta name=\"GENERATOR\" content=\"Microsoft&reg; HTML Help Workshop 4.1\">\n");
     f.write("<!-- Sitemap 1.0 -->\n");
     f.write("</HEAD><BODY>\n");
 
