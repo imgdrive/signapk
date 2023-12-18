@@ -23,6 +23,7 @@ signapk version 1.5 (2023-12-15)
 ## Todo
 - Loading PKCS#12 keystore
 - Support APK Signature Scheme v4
+- Verify APK Signature Scheme v1
 
 ## Usage
     signapk <command> [options]
@@ -32,7 +33,7 @@ signapk version 1.5 (2023-12-15)
 | verify   | Check whether the provided APK is expected to verify on Android |
 
 <table>
-<tr><th>Options</th><th>Description</th></tr>
+<tr><th align="left">Options</th><th align="left">Description</th></tr>
 <tr><td><a href="docs/--ks.md">--ks</a></td><td>KeyStore file</td></tr>
 <tr><td><a href="docs/--ks-key-alias.md">--ks-key-alias</a></td><td>KeyStore key alias</td></tr>
 <tr><td><a href="docs/--ks-pass.md">--ks-pass</a></td><td>KeyStore password</td></tr>

@@ -1,6 +1,5 @@
-# signapk command line
+# signapk usage
 
-## Usage
     signapk <command> [options]
 
 | Command  | Description                                                     |
@@ -9,7 +8,7 @@
 | verify   | Check whether the provided APK is expected to verify on Android |
 
 <table>
-<tr><th>Options</th><th>Description</th></tr>
+<tr><th align="left">Options</th><th align="left">Description</th></tr>
 <tr><td><a href="--ks.md">--ks</a></td><td>KeyStore file</td></tr>
 <tr><td><a href="--ks-key-alias.md">--ks-key-alias</a></td><td>KeyStore key alias</td></tr>
 <tr><td><a href="--ks-pass.md">--ks-pass</a></td><td>KeyStore password</td></tr>
