@@ -11,8 +11,8 @@ signapk version 2.1 (2024-04-23)
   - [signapk for Windows ARM64](https://download.yubsoft.com/arm64/signapk.exe)
 - [signapk for macOS](https://download.yubsoft.com/macos/signapk)
 - signapk for Linux
-  - [signapk for Windows x86](https://download.yubsoft.com/linux_x86/signapk.exe)
-  - [signapk for Windows x64](https://download.yubsoft.com/linux_x64/signapk.exe)
+  - [signapk for Linux x86](https://download.yubsoft.com/linux_x86/signapk.exe)
+  - [signapk for Linux x64](https://download.yubsoft.com/linux_x64/signapk.exe)
 
 ## Features
 - Written in C/C++, with no third-party dependencies
