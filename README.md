@@ -4,13 +4,15 @@ signapk is a free cross-platform standalone tool to sign the Android APK file, i
 signapk is implemented from scratch in C/C++ according to ApkSigner docs and source code, because there are many factors involved in APK signing. If you have problems with the signature, please submit an issue at https://github.com/dvdforge/signapk/issues.
 
 ## Download
-signapk version 1.5 (2023-12-15)
+signapk version 2.1 (2024-04-23)
 - signapk for Windows
-  - [signapk x86](https://download.yubsoft.com/x86/signapk.exe)
-  - [signapk x64](https://download.yubsoft.com/x64/signapk.exe)
-  - [signapk ARM64](https://download.yubsoft.com/arm64/signapk.exe)
+  - [signapk for Windows x86](https://download.yubsoft.com/x86/signapk.exe)
+  - [signapk for Windows x64](https://download.yubsoft.com/x64/signapk.exe)
+  - [signapk for Windows ARM64](https://download.yubsoft.com/arm64/signapk.exe)
 - [signapk for macOS](https://download.yubsoft.com/macos/signapk)
-- [signapk for Linux (Unbuntu)](https://download.yubsoft.com/ubuntu/signapk)
+- signapk for Linux
+  - [signapk for Windows x86](https://download.yubsoft.com/linux_x86/signapk.exe)
+  - [signapk for Windows x64](https://download.yubsoft.com/linux_x64/signapk.exe)
 
 ## Features
 - Written in C/C++, with no third-party dependencies
@@ -54,6 +56,12 @@ signapk version 1.5 (2023-12-15)
 	signapk verify --verbose app.apk
 
 ## Changelog
+### Version 2.1 2024-04-23
+- Fixed: zipalign verification failed
+- Fixed: fix a crash caused by deallocating buffer
+- Added: static link C runtime library [Linux]
+- Added: signapk Linux x86 version [Linux]
+
 ### Version 2.0 2023-12-15
 - Changed: implement complatible command line arguments with ApkSigner
 - Added: support signature algorithm DSA-1024, DSA-2048 and DSA-3072
